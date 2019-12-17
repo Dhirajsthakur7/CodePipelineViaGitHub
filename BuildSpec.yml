@@ -15,5 +15,5 @@ Phases:
       - yum -y install jq
   build:
     commands:
-      - chmod +x s3bucket.py
+      - chmod +x CreateS3Bucket.py
       - python CreateS3Bucket.py
